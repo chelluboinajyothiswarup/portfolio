@@ -1,0 +1,41 @@
+.box{
+    height: 5rem;
+    display: flex;
+    justify-content: start;
+
+}
+:host.pc .box{
+    height: 4rem;
+    display: flex;
+}
+
+:host.pc .box .icon{
+    height: 4rem;
+    width: 2rem;
+    background-color: white;
+}
+
+
+:host.pc .titles{
+    height:3rem;
+}
+:host.pc .titles ul{
+    display: flex;
+    height: 3rem;
+}
+:host.pc .titles ul li{
+    margin-right: 45px;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 19px;
+}
+:host.pc .titles ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:host.pc .titles ul li a:hover{
+    color: rgb(190, 241, 232);
+}
